@@ -5,7 +5,7 @@ char Arr[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'}, player = 'X';
 int x = 0, check = 0, num_enter[9], num;
 
 void draw_example(void);              // To Draw T-T-T Board
-char winnner(void);                   // For Giving/Returning Winner(which is Character)
+char winner(void);                   // For Giving/Returning Winner(which is Character)
 int check_repetition(int num, int x); // For checking Repetition of entered number acts like a Database(of already entered number)
 void get_input(void);                 // For taking Input from user and put X/O in the Array
 void toggle_player(void);             // For Switching/Toggling Players
